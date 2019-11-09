@@ -1,0 +1,5 @@
+num = int(input("Введите количество секунд: "))
+hh = int(num / 3600)
+mm = int(num % 3600 / 60)
+ss = int(num % 60)
+print(f"{hh}:{mm}:{ss}")
